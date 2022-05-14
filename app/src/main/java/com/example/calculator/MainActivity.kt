@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
         btn_7.setOnClickListener { setTextFields("7") }
         btn_8.setOnClickListener { setTextFields("8") }
         btn_9.setOnClickListener { setTextFields("9") }
-        dot_btn.setOnClickListener { if ("." !in math_operation.text) setTextFields(".") }
+        dot_btn.setOnClickListener { setTextFields(".") }
         minus_btn.setOnClickListener { setTextFields("-") }
         plus_btn.setOnClickListener { setTextFields("+") }
         multiply_btn.setOnClickListener { setTextFields("*") }
